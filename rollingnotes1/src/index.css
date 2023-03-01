@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --gradient: linear-gradient(-45deg, rgb(64, 93, 230), rgb(88, 81, 219),rgb(131, 58, 180),
+                                        rgb(193, 53, 132), rgb(225, 48, 108),rgb(253, 29, 29),
+                                        rgb(245, 96, 64), rgb(247, 119, 55),rgb(252, 175, 69),
+                                        rgb(255, 205, 75), rgb(197, 255, 56), rgb(81, 255, 0));
+  }
+
+@font-face {
+    font-family: "f";
+    src: url(./assets/f);
+}
+
+@keyframes ch-animation {
+    45% {background-position: right}
+}
+
+.ch {
+  background-size: 300%;
+  background-image: var(--gradient);
+  animation: ch-animation 5s infinite;
+}
+
+*{
+    font-family: "MontSerrat", sans-serif;
+}
+
+
+.pgg{
+    display: block;
+    line-height: 45.5px;
+    margin-left: 84px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    letter-spacing: normal;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .follow{
+    font-family: 'Merriweather', san-serif;
+  }
+  
+  .mediagg{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 84px;  
+  }
+  
+  
+  .igg{
+    font-size:200px;
+    line-height: 396px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    cursor: pointer;
+  }
+  
+  .igg:hover{
+    background-color: rgba(255,255,255,.4);
+  
+  }
+  
+  .insta{
+    transition: all 0.35s ease-in-out;
+  }
+  
+  .insta:hover{
+    transform: rotate(8deg);
+  }
+  
+  
+  .fgg{
+    color: white;
+    font-size: 200px;
+    line-height: 214px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    cursor: pointer;
+  }
+  
+  .fgg:hover{
+    background-color: rgba(255,255,255,.4);
+  }
+  
+  .facebook{
+    transition: all 0.35s ease-in-out;
+  }
+  
+  .facebook:hover{
+    transform: rotate(8deg);
+  }
+  
+  .tgg{
+    color: white;
+    font-size: 200px;
+    line-height: 214px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    cursor: pointer;
+  }
+  
+  .tgg:hover{
+    background-color: rgba(255,255,255,.4);
+  }
+  
+  .twitter{
+    transition: all 0.35s ease-in-out;
+  }
+  
+  .twitter:hover{
+    transform: rotate(8deg);
+  }
+  
